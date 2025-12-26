@@ -1,0 +1,10 @@
+/weights
+/logs
+/data
+/ln_data
+/work_dir
+
+**/__pycache__/
+
+softlink.sh
+rlaunch_multinode.sh
