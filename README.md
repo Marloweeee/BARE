@@ -1,7 +1,7 @@
 [//]: # (<br />)
 <p align="center"> <h1 align="center">BARE: Towards Bias-Aware and Reasoning-Enhanced <br>One-Tower Visual Grounding</h1>
 
-<p align="center"> <img src='Images/fig3_finnal.png' align="center" width="100%"> </p>
+<p align="center"> <img src='Images/fig3_BARE.png' align="center" width="100%"> </p>
 
 ## 📖 Contents
 
