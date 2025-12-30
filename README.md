@@ -21,7 +21,10 @@
   Utilizes **LSM**, **VBC**, and **R2E** modules to effectively suppress visual artifacts and linguistic shortcuts, significantly enhancing the model's reasoning capability for complex logical references and fine-grained semantic dependencies.
 
 - **⚡ State-of-the-Art Performance and Rigorous Experimental Validation**  
-  BARE consistently sets new performance benchmarks across **five large-scale datasets** (RefCOCO/+/g, ReferIt, Flickr30K) under multiple experimental settings. Our comprehensive evaluation—including exhaustive ablation studies and multi-granularity comparisons—provides compelling empirical evidence of the framework's superior precision, robustness, and generalizability.
+  BARE consistently sets new performance benchmarks across **five large-scale datasets** (RefCOCO/+/g, ReferIt, Flickr30K) under multiple experimental settings. Our comprehensive evaluation—including exhaustive ablation studies and multi-granularity comparisons—provides compelling empirical evidence of the framework's superior precision, robustness, and generalizability. 
+
+- **📊 Fine-Grained Partitioning and Open-Source Resource**  
+  Leverages LLMs to systematically re-partition the **RefCOCOg** test set into multi-dimensional categories, enabling a comprehensive analysis of linguistic and visual patterns. BARE demonstrates exceptional robustness across these fine-grained splits, which are now publicly available on [Hugging Face](https://huggingface.co/datasets/marloweee/BARE_grefumd_test_partitioning).
 
   <p align="center"> <img src='Images/fig1v4.png' align="center" width="55%"> </p>
 
@@ -248,8 +251,7 @@ Specifically, the 9,482 samples within the RefCOCOg test set are systematically 
 <p align="center"> <img src='Images/Tab-9.png' align="center" width="60%"> </p>
 
 
-<!-- 我们的细分数据将会在论文录用后公开 -->
-> 🔓 *The fine-grained evaluation splits will be publicly accessible after acceptance.*
+> ✅ *The fine-grained evaluation splits are publicly accessible on [Hugging Face](https://huggingface.co/datasets/marloweee/BARE_grefumd_test_partitioning).*
 
 </details>
 
